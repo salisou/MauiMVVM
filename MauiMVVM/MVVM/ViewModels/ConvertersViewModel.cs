@@ -1,0 +1,22 @@
+﻿using MauiMVVM.MVVM.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MauiMVVM.MVVM.ViewModels
+{
+    public class ConvertersViewModel
+    {
+        public Data Data { get; set; }
+
+        public ConvertersViewModel()
+        {
+            Data = new Data()
+            {
+                Married = "YES"
+            };
+        }
+    }
+}
